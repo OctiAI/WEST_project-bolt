@@ -11,7 +11,7 @@ const Hero = () => {
         <div className="block lg:hidden absolute top-4 left-0 w-full flex justify-center z-20 px-8 lg:opacity-0">
             <button className="flex justify-center lg:justify-start bg-lime-400 hover:bg-lime-500 text-gray-900 px-6 py-3 rounded-lg font-semibold text-base sm:text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg flex items-center gap-2 sm:gap-3">
               <Phone className="w-5 h-5" />
-              (888) 433-8156 (7am-5pm Weekdays Only)
+              (888) 433-8156 (7am-5dddpm Weekdays Only)
             </button>
         </div>
 
