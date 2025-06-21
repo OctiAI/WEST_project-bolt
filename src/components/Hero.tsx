@@ -38,7 +38,7 @@ const Hero = () => {
             <h1 id="hero-pricing" className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 mt-10 sm:mt-0 leading-tight">
               EV Charger Installation in Calgary. From <span className="text-lime-400">$998</span>.
             </h1>
-              <p className="text-base sm:text-lg md:text-xl mb-0 lg:mb-10 font-medium text-gray-200 leading-relaxed">    
+              <p id="hero-booking" className="text-base sm:text-lg md:text-xl mb-0 lg:mb-10 font-medium text-gray-200 leading-relaxed">    
                 Professional Install by a Licensed Electrician. Instant Pricing, Book in {' '}
                 <span className="underline">24 Seconds.</span>
               </p>
