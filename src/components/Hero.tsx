@@ -29,7 +29,7 @@ const Hero = () => {
       
       <div className="relative z-10 w-full max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 sm:mb-80">
          <div className="mb-0 sm:mb-28 flex justify-center">
-              <img src="https://media.discordapp.net/attachments/1382837308340043816/1383144654954041354/westland-electric_logo_1621549730229.png?ex=684db957&is=684c67d7&hm=f9266f2ac02aae5f0fae68fb029da139307b8bc325fb12ce448de1fc4e8f2d36&=&format=webp&quality=lossless"
+              <img src="https://westland-electrics.com/WL_logo.png"
           alt="Westland" className="pt-4 w-36 sm:w-48 h-auto opacity-90"              />
             </div>
 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
