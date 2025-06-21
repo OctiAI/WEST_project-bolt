@@ -45,7 +45,7 @@ const Hero = () => {
 
             <button className="hidden lg:flex justify-start bg-lime-400 hover:bg-lime-500 text-gray-900 px-6 py-3 rounded-lg font-semibold text-base lg:text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg items-center gap-2 lg:gap-3">
               <Phone className="w-5 h-5" />
-              (888) 433-8156 (7am-5dddpm Weekdays Only)
+              (888) 433-8156 (7am-5pm Weekdays Only)
             </button>
           </div>
 
