@@ -50,8 +50,8 @@ const Hero = () => {
           </div>
 
           {/* Right Side - Quote Form */}
-          <div className="bg-gray-50 bg-opacity-85 backdrop-blur-sm pt-6 sm:pt-8 rounded-2xl shadow-2xl">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">Get a Free Quote</h2>
+          <div className="bg-gray-50 bg-opacity-85 backdrop-blur-sm pt-6 sm:pt-8 rounded-2xl shadow-2xl mb-8">
+            <h2 className="text-2xl font-bold text-gray-900 text-center">Get a Free Quote</h2>
             <div style={{ width: '100%', height: '432px' }}>
               <iframe
                 src="https://link.greatlakesmarketingandsoftwaresolutions.com/widget/form/kD2OmZH9OUzy6bR8FV0P"
