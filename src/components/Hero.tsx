@@ -73,7 +73,7 @@ const Hero = () => {
             </div>
             
             {/* Trust Indicators */}
-            <div className="my-8 pt-6 border-t border-gray-200">
+            <div className="mb-8 pt-6 border-t border-gray-200">
               <p className="text-center text-sm text-gray-600 mb-4">
                 Trusted by Hundreds of Calgary EV Owners
               </p>
