@@ -51,7 +51,7 @@ const Hero = () => {
 
           {/* Right Side - Quote Form */}
           <div className="bg-gray-50 bg-opacity-85 backdrop-blur-sm p-6 sm:p-8 rounded-2xl shadow-2xl mb-8 ">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">Get a Frddee Quote</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">Get a Free Quote</h2>
             <form className="space-y-6">
               <div>
                 <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
