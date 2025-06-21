@@ -29,7 +29,7 @@ const Hero = () => {
       
       <div className="relative z-10 w-full max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 sm:mb-80">
          <div className="mb-0 sm:mb-28 flex justify-center">
-              <img src="https://westland-electrics.com/WL_logo.png"
+              <img src="https://images.renovationfind.com/images/4/0/98/6844/westland-electric_logo_1621549730229.png"
           alt="Westland" className="pt-4 w-36 sm:w-48 h-auto opacity-90"              />
             </div>
 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
