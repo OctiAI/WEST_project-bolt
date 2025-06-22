@@ -54,7 +54,17 @@ const Process = () => {
         </div>
 
         <div className="text-center">
-          <button className="bg-lime-400 hover:bg-lime-500 text-gray-900 px-10 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
+          <button className="bg-lime-400 hover:bg-lime-500 text-gray-900 px-10 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
+             onClick={() => {
+    const el = document.getElementById('hero-pricing');
+    if (el) {
+      el.scrollIntoView({ behavior: 'smooth' });
+    } else {
+      // fallback: update URL hash
+      window.location.hash = 'hero-pricing';
+    }
+  }}
+            >
             Book My Consultation
           </button>
           <p className="text-sm text-gray-500 mt-4">
