@@ -52,7 +52,7 @@ const Hero = () => {
           {/* Right Side - Quote Form */}
           <div id="hero-quote" className="bg-gray-50 bg-opacity-85 backdrop-blur-sm pt-6 sm:pt-8 rounded-2xl shadow-2xl mb-8">
             <h2 className="text-2xl font-bold text-gray-900 text-center">Get a Free Quote</h2>
-            <div style={{ width: '100%', height: '332px' }}>
+            <div style={{ width: '100%', height: '352px' }}>
               <iframe
                 src="https://link.greatlakesmarketingandsoftwaresolutions.com/widget/form/kD2OmZH9OUzy6bR8FV0P"
                 style={{ width: '100%', height: '100%', border: 'none', borderRadius: 3 }}
@@ -65,7 +65,7 @@ const Hero = () => {
                 data-deactivation-type="neverDeactivate"
                 data-deactivation-value=""
                 data-form-name="Westland - Form"
-                data-height="332"
+                data-height="352"
                 data-layout-iframe-id="inline-kD2OmZH9OUzy6bR8FV0P"
                 data-form-id="kD2OmZH9OUzy6bR8FV0P"
                 title="Westland - Form"
