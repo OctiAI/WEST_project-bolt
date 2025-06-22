@@ -40,7 +40,16 @@ const ServiceArea = () => {
                     <p className="text-sm opacity-90">Professional EV installation services</p>
                   </div>
                 </div>
-                <button className="bg-lime-400 hover:bg-lime-500 text-gray-900 px-6 py-3 rounded-lg font-semibold transition-all duration-300">
+                <button className="bg-lime-400 hover:bg-lime-500 text-gray-900 px-6 py-3 rounded-lg font-semibold transition-all duration-300"
+                   onClick={() => {
+    const el = document.getElementById('hero-pricing');
+    if (el) {
+      el.scrollIntoView({ behavior: 'smooth' });
+    } else {
+      // fallback: update URL hash
+      window.location.hash = 'hero-pricing';
+    }
+  }}>
                   Check Service Availability
                 </button>
               </div>
