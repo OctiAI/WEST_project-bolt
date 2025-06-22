@@ -16,7 +16,15 @@ const ValueProp = () => {
         <p className="text-xl text-gray-600 mb-12 max-w-4xl mx-auto leading-relaxed">
           Our <span className="underline">ESA-certified</span> pros install your charger fast, safely, and hassle-free—so you <span className="underline">never stress</span> about <span className="underline">range</span> again.
         </p>
-        <button className="bg-lime-400 hover:bg-lime-500 text-gray-900 px-10 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
+        <button className="bg-lime-400 hover:bg-lime-500 text-gray-900 px-10 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg" onClick={() => {
+    const el = document.getElementById('hero-pricing');
+    if (el) {
+      el.scrollIntoView({ behavior: 'smooth' });
+    } else {
+      // fallback: update URL hash
+      window.location.hash = 'hero-pricing';
+    }
+  }}>
           Get an Instant Quote
         </button>
       </div>
