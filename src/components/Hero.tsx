@@ -65,7 +65,7 @@ const Hero = () => {
                 data-deactivation-type="neverDeactivate"
                 data-deactivation-value=""
                 data-form-name="Westland - Form"
-                data-height="432"
+                data-height="332"
                 data-layout-iframe-id="inline-kD2OmZH9OUzy6bR8FV0P"
                 data-form-id="kD2OmZH9OUzy6bR8FV0P"
                 title="Westland - Form"
