@@ -60,7 +60,17 @@ const Credentials = () => {
                 );
               })}
             </div>
-            <button className="mt-8 bg-blue-800 hover:bg-blue-900 text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105">
+            <button className="mt-8 bg-blue-800 hover:bg-blue-900 text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105"
+               onClick={() => {
+    const el = document.getElementById('hero-pricing');
+    if (el) {
+      el.scrollIntoView({ behavior: 'smooth' });
+    } else {
+      // fallback: update URL hash
+      window.location.hash = 'hero-pricing';
+    }
+  }}
+              >
               Contact Paul at Westland
             </button>
           </div>
