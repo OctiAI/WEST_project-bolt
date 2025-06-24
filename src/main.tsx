@@ -2,9 +2,11 @@ import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import App from './App.tsx';
 import './index.css';
+import AnalyticsStuff from './components/AnalyticsStuff';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
+    <AnalyticsStuff />
     <App />
   </StrictMode>
 );
