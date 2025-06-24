@@ -6,7 +6,6 @@ import AnalyticsStuff from './components/AnalyticsStuff';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <AnalyticsStuff />
     <App />
   </StrictMode>
 );
