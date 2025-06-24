@@ -3,7 +3,6 @@ import { useEffect } from 'react';
 
 export default function AnalyticsStuff() {
   useEffect(() => {
-    if (process.env.NODE_ENV === 'production') {
       // 1) stub clarity
       window.clarity = window.clarity || function () {
         (window.clarity.q = window.clarity.q || []).push(arguments);
@@ -14,7 +13,6 @@ export default function AnalyticsStuff() {
       script.src = 'https://www.clarity.ms/tag/s45r7e1qd6';
       const firstScript = document.getElementsByTagName('script')[0];
       firstScript.parentNode.insertBefore(script, firstScript);
-    }
   }, []);
 
   return null; // this component doesn't render anything visible
